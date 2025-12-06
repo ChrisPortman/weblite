@@ -3,6 +3,8 @@ name = "httplite"
 version = "0.0.1"
 edition = "2024"
 authors = ["Chris Portman"]
+homepage = "https://github.com/ChrisPortman/httplite"
+repository = "https://github.com/ChrisPortman/httplite"
 description = "A very simple `no_std` implementation of the HTTP and WebSocket protocols aimed at embedded use cases"
 keywords = ["http", "websocket", "no_std", "embedded"]
 categories = [
@@ -21,9 +23,9 @@ doctest = true
 bench = false
 
 [dependencies]
-sha1 = {version = "0.10.6", default-features=false}
-base64ct = "1.8.0"
-embedded-io-async = "0.6.1"
+sha1 = {version = "0.10", default-features=false}
+base64ct = "1.8"
+embedded-io-async = "0.6"
 defmt = {version= "1", optional=true}
 
 [dev-dependencies]
