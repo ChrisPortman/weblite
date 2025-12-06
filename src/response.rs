@@ -9,7 +9,7 @@ use crate::{HttpWrite, WriteError};
 const HTTP_PROTO: &str = "HTTP/1.1";
 
 /// Responder error is returned as the error when responding to clients.  Generally users of the
-/// httplite library will not inspect this error, but pass it on from the handler implementations.
+/// weblite library will not inspect this error, but pass it on from the handler implementations.
 #[derive(Debug, PartialEq)]
 #[cfg_attr(feature = "defmt", derive(defmt::Format))]
 pub enum ResponderError {

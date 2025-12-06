@@ -1,6 +1,6 @@
-//! # HTTPLite
+//! # Weblite
 //!
-//! `httplite` is a **very** basic implementation of the HTTP protocol predominantly aimed at
+//! `weblite` is a **very** basic implementation of the HTTP protocol predominantly aimed at
 //! `no_std` and `no_alloc` use cases such as embedded development.
 //!
 //! This crate provides:
@@ -28,10 +28,10 @@
 //! # use tokio;
 //! use embedded_io_async::{Read, Write};
 //!
-//! use httplite::request::Request;
-//! use httplite::response::{Responder, StatusCode};
-//! use httplite::websocket::Websocket;
-//! use httplite::server::{RequestHandler, HandlerError, Server};
+//! use weblite::request::Request;
+//! use weblite::response::{Responder, StatusCode};
+//! use weblite::websocket::Websocket;
+//! use weblite::server::{RequestHandler, HandlerError, Server};
 //!
 //! const HTML_INDEX: &str = "<html>...</html>";
 //! const HTML_404: &str = "Not Found";

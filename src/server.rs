@@ -45,10 +45,10 @@ pub trait RequestHandler {
     /// ```
     /// use embedded_io_async::{Read, Write};
     ///
-    /// use httplite::request::Request;
-    /// use httplite::response::{Responder, StatusCode};
-    /// use httplite::websocket::Websocket;
-    /// use httplite::server::{RequestHandler, HandlerError, Server};
+    /// use weblite::request::Request;
+    /// use weblite::response::{Responder, StatusCode};
+    /// use weblite::websocket::Websocket;
+    /// use weblite::server::{RequestHandler, HandlerError, Server};
     ///
     /// struct Handler {}
     ///
@@ -89,10 +89,10 @@ pub trait RequestHandler {
     /// ```
     /// use embedded_io_async::{Read, Write};
     ///
-    /// use httplite::request::Request;
-    /// use httplite::response::{Responder, StatusCode};
-    /// use httplite::websocket::Websocket;
-    /// use httplite::server::{RequestHandler, HandlerError, Server};
+    /// use weblite::request::Request;
+    /// use weblite::response::{Responder, StatusCode};
+    /// use weblite::websocket::Websocket;
+    /// use weblite::server::{RequestHandler, HandlerError, Server};
     ///
     /// struct Handler {}
     ///
@@ -130,7 +130,7 @@ pub trait RequestHandler {
 
 #[derive(Debug, PartialEq)]
 #[cfg_attr(feature = "defmt", derive(defmt::Format))]
-/// ServerError is returned by the httplite::server::Server:serve() method when any of the variants
+/// ServerError is returned by the weblite::server::Server:serve() method when any of the variants
 /// occur.
 pub enum ServerError {
     /// Error parsing HTTP or Websocket protocol data

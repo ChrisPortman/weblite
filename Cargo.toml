@@ -1,10 +1,10 @@
 [package]
-name = "httplite"
+name = "weblite"
 version = "0.0.1"
 edition = "2024"
 authors = ["Chris Portman"]
-homepage = "https://github.com/ChrisPortman/httplite"
-repository = "https://github.com/ChrisPortman/httplite"
+homepage = "https://github.com/ChrisPortman/weblite"
+repository = "https://github.com/ChrisPortman/weblite"
 description = "A very simple `no_std` implementation of the HTTP and WebSocket protocols aimed at embedded use cases"
 keywords = ["http", "websocket", "no_std", "embedded"]
 categories = [

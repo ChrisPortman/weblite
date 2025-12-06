@@ -1,6 +1,6 @@
-# HTTPLite
+# WebLite
 
-`httplite` is a **very** basic implementation of the HTTP protocol predominantly aimed at
+`weblite` is a **very** basic implementation of the HTTP protocol predominantly aimed at
 `no_std` and `no_alloc` use cases such as embedded development.
 
 This crate provides:
@@ -19,7 +19,7 @@ My own usage pattern, for an embedded project has been to create a single HTML a
 inlines all required javascript (`<script>...</script>`) and CSS `<head><style>...</style></head>`)
 as well as SVG images. The HTML is then embedded in the built binary as a `const &[u8]` with `include_bytes!("html/index.html");`.
 
-The handler `httplite::server::RequestHandler` implementation then only handles:
+The handler `weblite::server::RequestHandler` implementation then only handles:
 
 * `/` - responds with the HTML
 * `/ws` - starts a websocket

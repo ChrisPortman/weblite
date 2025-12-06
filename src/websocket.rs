@@ -13,10 +13,10 @@
 //! ```
 //! use embedded_io_async::{Read, Write};
 //!
-//! use httplite::request::Request;
-//! use httplite::response::{Responder, StatusCode};
-//! use httplite::websocket::Websocket;
-//! use httplite::server::{RequestHandler, HandlerError, Server};
+//! use weblite::request::Request;
+//! use weblite::response::{Responder, StatusCode};
+//! use weblite::websocket::Websocket;
+//! use weblite::server::{RequestHandler, HandlerError, Server};
 //!
 //! struct MyHandler;
 //!
