@@ -8,6 +8,7 @@
 [crates-url]: https://crates.io/crates/weblite
 [docs-badge]: https://img.shields.io/badge/docs.rs-v0.0.1-blue
 [docs-url]: https://docs.rs/weblite/0.0.1/weblite/
+[mit-badge]: https://img.shields.io/badge/license-MIT-blue
 [mit-url]: https://github.com/ChrisPortman/weblite/blob/main/LICENSE.txt
 
 `weblite` is a **very** basic implementation of the HTTP protocol predominantly aimed at
