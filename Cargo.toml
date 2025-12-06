@@ -10,7 +10,7 @@ keywords = ["http", "websocket", "no_std", "embedded"]
 categories = [
     "asynchronous",
     "embedded",
-    "no-std::no-aloc",
+    "no-std::no-alloc",
     "web-programming::http-server",
     "web-programming::websocket",
 ]
