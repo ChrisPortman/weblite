@@ -1,5 +1,16 @@
 # WebLite
 
+[![Crates.io][crates-badge]][crates-url]
+[![Docs.rs][docs-badge]][docs-url]
+[![MIT licensed][mit-badge]][mit-url]
+
+[crates-badge]: https://img.shields.io/badge/crates.io-v0.0.1-blue
+[crates-url]: https://crates.io/crates/weblite
+[docs-badge]: https://img.shields.io/badge/docs.rs-v0.0.1-blue
+[docs-url]: https://docs.rs/weblite/0.0.1/weblite/
+[mit-badge]: https://img.shields.io/badge/license-MIT-blue
+[mit-url]: https://github.com/ChrisPortman/weblite/blob/main/LICENSE.txt
+
 `weblite` is a **very** basic implementation of the HTTP protocol predominantly aimed at
 `no_std` and `no_alloc` use cases such as embedded development.
 
@@ -30,3 +41,7 @@ The client requests `/` and gets the single page back.  The javascript starts a 
 in response to events and commands received on the socket.
 
 There's no reason you can't have a more complicated URL landscape, but this works for me.
+
+## Examples
+
+See the crate docs for example usage.
